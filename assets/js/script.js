@@ -1,0 +1,5 @@
+const Calcs = [
+    'Imc',
+    'Soma',
+]
+
