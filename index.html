@@ -9,17 +9,23 @@
 </head>
 
 <body>
-    <div id="header">
-        Calc
-    </div>
     <div id="container">
-        <div id="nav">
-            <input type="text" value="Imc..." id="">
-            <ul id="calcs-list">
-            </ul>
+        <div id="header">
+            <h1>Calc</h1>
+            <select id="calc-type">
+            </select>
         </div>
-        <div id="content">
-            #
+        <div id="body">
+            <div id="calc-field">
+                <label for="value-one">Peso</label>
+                <input type="number">
+                <label for="value-two">Altura</label>
+                <input type="number">
+                <button>Calcular</button>
+            </div>
+            <div id="result-field">
+                <h2>0,375</h2>
+            </div>
         </div>
     </div>
 
