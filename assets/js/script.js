@@ -1,7 +1,8 @@
 const Calcs = [
-    'Imc',
-    'Soma',
+    'imc',
+    'sum',
 ]
+
 
 function CalculaImc(peso, altura){
     result = peso / (altura)**2
