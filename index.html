@@ -11,24 +11,26 @@
 <body>
     <div id="container">
         <div id="header">
-            <h1>Calc</h1>
             <select id="calc-type">
             </select>
         </div>
-        <div id="body">
+        <div id="container-body">
             <div id="calc-field">
                 <label for="value-one">Peso</label>
-                <input id="value-one" type="number">
+                <input id="value-one" placeholder="65" type="number" min="0" max="1000" autofocus>
                 <label for="value-two">Altura</label>
-                <input id="value-two" type="number">
+                <input id="value-two" placeholder="1.70" step="0.1" type="number">
             </div>
-            <div>
+            <div id="action-field">
                 <button id="calc">=</button>
             </div>
             <div id="result-field">
-                <small>Result</small>
-                <h2>0,375</h2>
+                <small>Total</small>
+                <h2>0</h2>
             </div>
+        </div>
+        <div id="footer">
+            <p>&nbsp;</p>
         </div>
     </div>
 
